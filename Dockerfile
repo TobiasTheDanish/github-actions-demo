@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-alpine
 # Copy jar file to root folder
-COPY target/App.jar /App.jar
+COPY target/app.jar /app.jar
 # This is the port for the application to listen on
 EXPOSE 7007
 #The command to run when the container starts
